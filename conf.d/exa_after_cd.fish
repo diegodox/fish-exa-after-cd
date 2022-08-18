@@ -8,5 +8,5 @@ if functions -q __exa_after_cd
         functions -e cd
     end
     # create cd using wrapped
-    functions -c __exa_after_cd_wrapped_cd cd
+    functions -c __exa_after_cd cd
 end
